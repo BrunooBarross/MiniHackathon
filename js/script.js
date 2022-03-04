@@ -42,16 +42,19 @@ function renderizarTela(array){
                     </div>   
                     <div class="informacoes">
                         <div>                            
-                            <span>Cidade: ${dadosApi.name}</span>
+                            <span><strong>Cidade:</strong> ${dadosApi.name}</span>
                         </div>
                         <div>
-                            <span>Temperatura: ${tempAtual.toFixed(1)}°C</span>
+                            <span><strong>Temperatura:</strong> ${tempAtual.toFixed(1)}°C</span>
                         </div>                       
                         <div>
-                            <span>Max: ${tempMin.toFixed(1)}°C</span>
+                            <span><strong>Max:</strong> ${tempMin.toFixed(1)}°C</span>
                         </div>  
                         <div>
-                            <span>Min: ${tempMax.toFixed(1)}°C</span>
+                            <span><strong>Min:</strong> ${tempMax.toFixed(1)}°C</span>
+                        </div>
+                        <div>
+                            <span><strong>Umidade:</strong> ${dadosApi.main.humidity}%</span>
                         </div>                   
                     </div>     
                 `;
