@@ -35,6 +35,14 @@ body{
 .nav{
     margin-top: 20px;
 }
+.nav button{
+    border: solid 1px #C9C9C9;
+    border-radius: 5px;
+}
+.nav input{
+    border: solid 1px #C9C9C9;
+    border-radius: 5px;    
+}
 .conteudo{
     display: flex;
     justify-content: center;
@@ -49,6 +57,6 @@ body{
     width: 180px;
     height: 200px;
     margin-top: 70px;
-    border: solid 5px #C9C9C9;
+    border: solid 4px #C9C9C9;
     border-radius: 10px;
 }
