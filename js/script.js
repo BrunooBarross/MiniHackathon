@@ -38,23 +38,29 @@ function renderizarTela(array){
     tempMin = tempMin - 273,15;
     conteudo.innerHTML = `   
                     <div class="img">
-
+                        aqui iria a imagem
                     </div>   
                     <div class="informacoes">
-                        <div>                            
+                        <div>   
+                            <hr>                         
                             <span><strong>Cidade:</strong> ${dadosApi.name}</span>
+                            <hr>
                         </div>
                         <div>
                             <span><strong>Temperatura:</strong> ${tempAtual.toFixed(1)}°C</span>
+                            <hr>
                         </div>                       
                         <div>
                             <span><strong>Max:</strong> ${tempMin.toFixed(1)}°C</span>
+                            <hr>
                         </div>  
                         <div>
                             <span><strong>Min:</strong> ${tempMax.toFixed(1)}°C</span>
+                            <hr>
                         </div>
                         <div>
                             <span><strong>Umidade:</strong> ${dadosApi.main.humidity}%</span>
+                            <hr>
                         </div>                   
                     </div>     
                 `;
